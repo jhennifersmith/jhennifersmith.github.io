@@ -8,9 +8,9 @@ exclude: [vendor/ruby]
 
 # Personalization
 github_username: jhennifersmith
-blog_url: https://jhennifer.github.io
+blog_url: https://jhennifersmith.github.io
 email: jhennifersmithsoares@gmail.com
-keybase_username: jhennifer
+keybase_username: jhennifersmith
 twitter_username: jhennismith
 
 # absolute or relative
