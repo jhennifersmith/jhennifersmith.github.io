@@ -1,0 +1,20 @@
+title: Jhennifer Smith
+description: Desenvolvedora back-end
+site_title: 'Jhennifer Smith'
+
+# Build settings
+markdown: kramdown
+exclude: [vendor/ruby]
+
+# Personalization
+github_username: jhennifersmith
+blog_url: https://jhennifer.github.io
+email: jhennifersmithsoares@gmail.com
+keybase_username: jhennifer
+twitter_username: jhennismith
+
+# absolute or relative
+profile_picture: assets/images/pp.jpg
+
+# Google Analytics ID
+google_analytics: 
