@@ -1,5 +1,5 @@
 $(document).ready(() => {
-    render_projects('C');
+    render_projects('featured');
 })
 
 
@@ -14,7 +14,7 @@ let render_projects = (slug) => {
             image: 'assets/images/GerenciadordeEventos.png',
             link: 'https://github.com/jhennifersmith/Projetos-Faculdade-C/blob/main/Gerenciador%20de%20Eventos/main.c',
             title: 'Gerenciador de Evento',
-            demo: 'https://github.com/jhennifersmith/Projetos-Faculdade-C/blob/main/Gerenciador%20de%20Eventos/main.c',
+            demo: false,
             technologies: ['C'],
             description: "Um Gerenciador de Eventos desenvolvido com Listas em C.",
             categories: ['featured']
@@ -23,137 +23,38 @@ let render_projects = (slug) => {
             image: 'assets/images/JogodaVelha.png',
             link: 'https://github.com/jhennifersmith/Projetos-Faculdade-C/blob/main/Jogo%20Da%20Velha/main.c',
             title: 'Jogo da Velha',
-            demo: 'https://github.com/jhennifersmith/Projetos-Faculdade-C/blob/main/Jogo%20Da%20Velha/main.c',
+            demo: false,
             technologies: ['C'],
             description: "Um Jogo da Velha desenvolvido em C",
-            categories: ['featured', 'webdev']
+            categories: ['featured']
         },
         {
-            image: 'assets/images/collage.jpg',
+            image: 'assets/images/biblioteca.png',
             link: 'https://github.com/jhennifersmith/Projetos-Faculdade-C/blob/main/Biblioteca/main.c',
             title: 'Biblioteca',
             demo: false,
             technologies: ['C'],
             description: "Um sistema de Biblioteca desenvolvido em C para treinar funções e structs",
-            categories: ['featured', 'native']
+            categories: ['featured']
         },
         {
-            image: 'assets/images/mpw.jpg',
-            link: 'https://github.com/abhn/mpw',
-            title: 'Master Pass',
-            demo: 'https://www.nagekar.com/mpw',
-            technologies: ['Semantic UI', 'CSS3'],
-            description: "Master Password is an ingenious password solution that makes your passwords truly impossible to lose.",
-            categories: ['featured', 'security']
-        },
-        {
-            image: 'assets/images/social-share-count.jpeg',
-            link: 'https://github.com/abhn/Social-Share-Counts',
-            title: 'Social Share Count',
+            image: 'assets/images/site-print.png',
+            link: 'https://github.com/jhennifersmith/Projetos-Faculdade-HTML_CSS_JS/tree/master/Primeiro%20Site%20Responsivo',
+            title: 'Site Responsivo',
             demo: false,
-            technologies: ['Python'],
-            description: "Ever wondered how many times a URL has been shared on popular social networks?",
-            categories: ['native']
-        },
-        {
-            image: 'assets/images/data-destroyer.png',
-            link: 'https://github.com/abhn/data-destroyer-gui',
-            title: 'Data Destroyer',
-            demo: false,
-            technologies: ['C++', 'Qt'],
-            description: "Native GUI wrapper for GNU coreutils tool 'dd'",
-            categories: ['native']
-        },
-        {
-            image: 'assets/images/raspberry-pi-monitor.png',
-            link: 'https://github.com/abhn/RPi-Status-Monitor',
-            title: 'Raspberry Pi Monitor',
-            demo: false,
-            technologies: ['python', 'flask'],
-            description: "Web based status monitor/smart mirror, displays system stats, weather and more.",
-            categories: ['webdev', 'diy']
-        },
-        {
-            image: 'assets/images/s3scan.png',
-            link: 'https://github.com/abhn/S3Scan',
-            title: 'S3Scan',
-            demo: false,
-            technologies: ['python'],
-            description: "Automate crawling of a website and find publicly open S3 buckets for takeover.",
-            categories: ['native', 'security']
-        },
-        {
-            image: 'assets/images/elementary.png',
-            link: 'https://github.com/abhn/Elementary',
-            title: 'Elementary',
-            demo: 'https://elementary-jekyll.github.io/',
-            technologies: ['Jekyll', 'CSS3'],
-            description: "Elementary is a zero Javascript and minimal CSS ultra lightweight Jekyll theme for those of you who love simplicity.",
+            technologies: ['HTML', 'CSS'],
+            description: "Site Responsivo com HTML e CSS",
             categories: ['webdev']
         },
         {
-            image: 'assets/images/soot-spirits.png',
-            link: 'https://github.com/abhn/Soot-Spirits',
-            title: 'Soot Spirits',
-            demo: 'https://sootspirits.github.io',
-            technologies: ['Jekyll', 'CSS3'],
-            description: "A simple responsive two column Jekyll theme. Great for personal blog and basic portfolio website.",
+            image: 'assets/images/wordpress.png',
+            link: 'https://jhennifersmith.wordpress.com/',
+            title: 'Site Pessoal com Wordpress',
+            demo: false,
+            technologies: ['wordpress'],
+            description: "Site desenvolvido com a ferramenta Wordpress.",
             categories: ['webdev']
-        },
-        {
-            image: 'assets/images/python-chat.png',
-            link: 'https://www.nagekar.com/2014/12/lan-group-messenger-in-python.html',
-            title: 'Terminal Group Chat',
-            demo: false,
-            technologies: ['Python', 'Sockets'],
-            description: "Simple terminal group chat based on native sockets using Python.",
-            categories: ['native']
-        },
-        {
-            image: 'assets/images/old-lcd.jpg',
-            link: 'https://www.nagekar.com/2018/05/reusing-old-laptop-lcd-panel.html',
-            title: 'Reusing Old LCD Panel',
-            demo: false,
-            technologies: ['DIY'],
-            description: "Reusing a dead laptop's LCD panel as a secondary monitor.",
-            categories: ['diy']
-        },
-        {
-            image: 'assets/images/nextcloud-enc.png',
-            link: 'https://www.nagekar.com/2017/08/private-cloud-part-2.html',
-            title: 'Encrypted Self-Hosted Cloud',
-            demo: false,
-            technologies: ['NextCloud', 'GnuPG'],
-            description: "Self hosted encrypted cloud setup with Nextcloud and GnuPG.",
-            categories: ['diy', 'security']
-        },
-        {
-            image: 'assets/images/google-cloud-backup.png',
-            link: 'https://www.nagekar.com/2018/05/encrypted-backup-with-duplicity.html',
-            title: 'Encrypted Backups - Google Cloud',
-            demo: false,
-            technologies: ['NextCloud', 'Duplicity'],
-            description: "Create automated encrypted incremental backups of data. Sync everything securely to Google Cloud.",
-            categories: ['diy', 'security']
-        },
-        {
-            image: 'assets/images/pi-cloud.jpg',
-            link: 'https://www.nagekar.com/2016/01/how-to-private-local-cloud-using-raspberrypi.html',
-            title: 'Local Cloud - Raspberry Pi',
-            demo: false,
-            technologies: ['FTP', 'DIY'],
-            description: "Host a local cloud server with a Raspberry Pi and a spare hard disk. Access data instantaneously on any device on the network.",
-            categories: ['diy']
-        },
-        {
-            image: 'assets/images/koalamate.png',
-            link: 'https://github.com/abhn/koalamate',
-            title: 'Koalamate',
-            demo: false,
-            technologies: ['Electron', 'Javascript'],
-            description: "A cross-platform desktop application that serves as a Wolfram Alpha query place and notes taker.",
-            categories: ['native']
-        },
+        }
     ]
 
     let projects = [];
