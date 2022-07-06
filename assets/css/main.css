@@ -206,6 +206,8 @@ img {
 }
 
 .section-wrapper:nth-child(odd) {
+
+  
   background: url(../images/background.jpg);
   background-repeat: repeat;
 }
