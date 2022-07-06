@@ -17,7 +17,7 @@ let render_projects = (slug) => {
             demo: 'https://github.com/jhennifersmith/Projetos-Faculdade-C/blob/main/Gerenciador%20de%20Eventos/main.c',
             technologies: ['C'],
             description: "Um Gerenciador de Eventos desenvolvido com Listas em C.",
-            categories: ['C']
+            categories: ['featured']
         },
         {
             image: 'assets/images/JogodaVelha.png',
@@ -40,7 +40,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/mpw.jpg',
             link: 'https://github.com/abhn/mpw',
-            title: 'Master Password',
+            title: 'Master Pass',
             demo: 'https://www.nagekar.com/mpw',
             technologies: ['Semantic UI', 'CSS3'],
             description: "Master Password is an ingenious password solution that makes your passwords truly impossible to lose.",
