@@ -1,5 +1,5 @@
 $(document).ready(() => {
-    render_projects('featured');
+    render_projects('C');
 })
 
 
@@ -11,30 +11,30 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/images/mentors.jpg',
-            link: 'https://github.com/abhn/Mporter',
-            title: 'Mporter',
-            demo: 'https://mporter.co',
-            technologies: ['Flask', 'Celery', 'Python'],
-            description: "Flask web application for easy reporting updates to one's mentor. Multi-user support, easy to deploy and use.",
-            categories: ['featured', 'webdev']
+            image: 'assets/images/GerenciadordeEventos.png',
+            link: 'https://github.com/jhennifersmith/Projetos-Faculdade-C/blob/main/Gerenciador%20de%20Eventos/main.c',
+            title: 'Gerenciador de Evento',
+            demo: 'https://github.com/jhennifersmith/Projetos-Faculdade-C/blob/main/Gerenciador%20de%20Eventos/main.c',
+            technologies: ['C'],
+            description: "Um Gerenciador de Eventos desenvolvido com Listas em C.",
+            categories: ['C']
         },
         {
-            image: 'assets/images/mobile-landscape.jpg',
-            link: 'https://github.com/abhn/Wall-E',
-            title: 'Wall-E',
-            demo: 'http://wall-e-jekyll.github.io/',
-            technologies: ['Semantic UI', 'Jekyll'],
-            description: "A modern Jekyll theme with grid frontpage, beautiful typography, mobile responsive, made with Semantic UI.",
+            image: 'assets/images/JogodaVelha.png',
+            link: 'https://github.com/jhennifersmith/Projetos-Faculdade-C/blob/main/Jogo%20Da%20Velha/main.c',
+            title: 'Jogo da Velha',
+            demo: 'https://github.com/jhennifersmith/Projetos-Faculdade-C/blob/main/Jogo%20Da%20Velha/main.c',
+            technologies: ['C'],
+            description: "Um Jogo da Velha desenvolvido em C",
             categories: ['featured', 'webdev']
         },
         {
             image: 'assets/images/collage.jpg',
-            link: 'https://github.com/abhn/Marvel',
-            title: 'Marvel',
+            link: 'https://github.com/jhennifersmith/Projetos-Faculdade-C/blob/main/Biblioteca/main.c',
+            title: 'Biblioteca',
             demo: false,
-            technologies: ['Android', 'OpenCV'],
-            description: "Attendance marking tool that uses face recognition for marking attendance and firebase for tracking and analytics.",
+            technologies: ['C'],
+            description: "Um sistema de Biblioteca desenvolvido em C para treinar funções e structs",
             categories: ['featured', 'native']
         },
         {
